@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+ int numero = 0;
+
+ cout << "Numero? ";
+
+ cin >> numero;
+
+ cout << "O numero informado foi [" << numero << "]" << endl;
+
+ return 0;
+}
