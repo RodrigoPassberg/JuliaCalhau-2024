@@ -5,10 +5,10 @@ int main(){
     
     int velocidade;
     int distancia;
-    char nome_time[252];
+    char nome_carro[252];
     
     printf("Digite o nome do carro: ");
-    scanf("%s", nome_time);
+    scanf("%s", nome_carro);
     
     printf("Digite a velocidade do carro:");
     scanf("%d", &distancia);
