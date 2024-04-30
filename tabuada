@@ -1,0 +1,21 @@
+#include <iostream>
+
+int main() {
+    int numero;
+
+    // Solicita o número ao usuário
+    std::cout << "Digite um numero para ver sua tabuada: ";
+    std::cin >> numero;
+
+    // Inicializa o contador para a tabuada
+    int contador = 1;
+
+    // Imprime a tabuada usando o loop while
+    std::cout << "Tabuada de " << numero << ":\n";
+    while (contador <= 10) {
+        std::cout << numero << " x " << contador << " = " << (numero * contador) << std::endl;
+        contador++;
+    }
+
+    return 0;
+}
