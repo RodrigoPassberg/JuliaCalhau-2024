@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+    float soma,nota1,nota2,nota3,media;
+    int resp;
+
+    do {
+
+    printf("\n Digite a [1]ª  nota : ");
+    scanf("%f",&nota1);
+    printf("\n Digite a [2]ª  nota : ");
+    scanf("%f",&nota2);
+    printf("\n Digite a [3]ª  nota : ");
+    scanf("%f",&nota3);
+    
+    soma=nota1+nota2+nota3;
+    media=soma/3;
+    printf("A soma é: %.2f  \n", soma);
+    printf("A media é = %.2f  ", media );
+    printf("\nDigite 1 para recomeçar e 2 para sair: ");
+    scanf("%d", &resp);
+    }while(resp==1);
+    return 0;
+}
